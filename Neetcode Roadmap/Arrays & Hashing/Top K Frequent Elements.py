@@ -18,5 +18,5 @@ Input: nums = [7,7], k = 1
 Output: [7]
 '''
 
-def topKFrequent(nums: List[int], k: int) -> List[int]:
+def topKFrequent(nums: list[int], k: int) -> list[int]:
     
