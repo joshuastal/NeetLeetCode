@@ -8,3 +8,24 @@ Input: s = "racecar", t = "carrace"
 
 Output: true
 */
+
+import java.util.Arrays;
+
+class Solution {
+
+  public boolean isAnagram(String s, String t) {
+    s = s.toLowerCase();
+    t = t.toLowerCase();
+
+    char[] sChars = s.toCharArray();
+    char[] tChars = t.toCharArray();
+
+    Arrays.sort(sChars);
+    Arrays.sort(tChars);
+
+    if (Arrays.equals(sChars, tChars)) {
+      return true;
+    }
+    return false;
+  }
+}
