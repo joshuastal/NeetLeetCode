@@ -23,7 +23,7 @@ Output: ["1","2","Fizz","4","Buzz","Fizz","7","8","Fizz","Buzz","11","Fizz","13"
 */
 import java.util.Arrays;
 
-class Solution {
+class FizzBuzzSolution {
 
   public String[] fizzBuzz(int num) {
     String[] result = new String[num];
@@ -47,7 +47,7 @@ class Solution {
 class FizzBuzz {
 
   public static void main(String[] args) {
-    Solution fizzBuzz = new Solution();
+    FizzBuzzSolution fizzBuzz = new FizzBuzzSolution();
 
     System.out.println(Arrays.toString(fizzBuzz.fizzBuzz(15)));
   }

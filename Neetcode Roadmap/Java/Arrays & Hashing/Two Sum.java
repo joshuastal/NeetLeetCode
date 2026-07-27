@@ -12,7 +12,7 @@ nums = [3,4,5,6], target = 7
 Output: [0,1]
 */
 
-class Solution {
+class TwoSumSolution {
 
   public int[] twoSum(int[] nums, int target) {
     int[] indices = new int[2];

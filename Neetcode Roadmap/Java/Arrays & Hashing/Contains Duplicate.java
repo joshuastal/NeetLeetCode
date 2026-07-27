@@ -3,7 +3,7 @@ Given an integer array nums, return true if any value appears more than once in 
 */
 import java.util.HashMap;
 
-class Solution {
+class ContainsDuplicateSolution {
 
   public boolean containsDuplicate(int[] nums) {
     HashMap<Integer, Integer> seen = new HashMap<>();

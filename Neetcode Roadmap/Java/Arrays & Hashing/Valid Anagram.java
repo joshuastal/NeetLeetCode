@@ -11,7 +11,7 @@ Output: true
 
 import java.util.Arrays;
 
-class Solution {
+class ValidAnagramSolution {
 
   public boolean isAnagram(String s, String t) {
     s = s.toLowerCase();
